@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+  /**
+    MAIN PAGE
+  **/
+.mainPageRecipeContainer{
+    text-align: center;
+}
+
+ul.mainPageRecipeList{
+    display: inline-block;
+    text-align: left;
+}
+
+.mainPageRecipeList > * {
+    color: black;
+    font-size:larger;
+    background-color: #f6b328;
+    border-style:ridge;
+    border-color: black;
+    margin-bottom:5px;
+}
+
+
+/**
+    TITLES
+**/
+.mainTitle{
+    background-color: #f6b328;
+}
+
+.appleTitle{
+    background-color: pink;
+}
+
+.browniesTitle{
+    background-color: chocolate;
+}
+
+.carotteTitle{
+    background-color: orange;
+}
+
+.defaultTitle{
+    color: black;
+    text-align: center;
+    font-size:xx-large;
+    font-weight: bold;
+    border-style:solid ;
+    border-color: black;
+}
+
+p.catchyTitle {
+    font-family: "Lucida Handwriting", cursive;
+    font-style:italic;
+    font-size: large;
+}
+
+
+/**
+    BACKGROUNDS
+**/
+#mainBackground {
+    background-image: url("/images/cheeseBackground.webp");
+}
+
+#appleRecipeBackground {
+    background-image: url("/images/appleBackground3.jpg");
+}
+
+#browniesRecipeBackground {
+    background-image: url("/images/chocolatBackground.jpg");
+}
+
+#carotteRecipeBackground {
+    background-image: url("/images/carotteBackground.jpg");
+}
+
+
+#mainBackground,
+#appleRecipeBackground,
+#browniesRecipeBackground,
+#carotteRecipeBackground {
+    background-attachment:fixed;
+}
+
+
+/**
+    IMAGES
+**/
+.recipePicture {
+    border-style: dotted;
+    border-color: black;
+    display: block;
+    height: 300px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/**
+    INGREDIENTS/ISTRUCTIONS LIST
+**/
+.listContainer {
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+}
+
+.listHeader {
+    text-decoration: underline;
+}
